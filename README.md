@@ -31,7 +31,7 @@ To locally run or contribute to this project, follow these steps:
    cd your-repository
    ```
 
-3. Open the `index.html` file in your preferred web browser.
+3. Open the `home.html` file in your preferred web browser.
 
 ## Usage
 
