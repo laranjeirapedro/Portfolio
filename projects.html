@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-p"></i>
+            </div>
+
+            <div class="header-link">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a href="">Certification</a>
+                </li>
+
+                <li class="resume">
+                    <a href="/resume/Resume - Pedro Laranjeira.pdf" download>Resume</a>
+                </l>
+            </div>
+
+            <div class="contact-me">
+                <button>Contact me</button>
+            </div>
+        </header>
+
+        <div class="container-text">
+            <div class="text-projects">
+                <h1>Some Projects</h1>
+            </div>
+
+            <div class="text-projects">
+                <h3>Hash Game</h3>
+                <p>Language: Java</p>
+                <a href="https://github.com/pedroasso/Hash_Game" target="_blank">Hash Game - GitHub</a>
+            </div>
+
+            <div class="text-projects">
+                <h3>Rescue Game</h3>
+                <p>Language: Javascript / HTML / CSS</p>
+                <a href="https://github.com/pedroasso/bootcamp-DIO-MRV-rescue_game" target="_blank">Rescue Game - GitHub</a>
+            </div>
+
+            <div class="text-projects">
+                <h3>Netflix - Clone Front Page</h3>
+                <p>Language: Javascript / HTML / CSS / Jquery (Own Carousel)</p>
+                <a href="https://github.com/pedroasso/bootcamp-DIO-banco_inter-Clone_Netflix" target="_blank">Netflix - Clone Front Page</a>
+            </div>
+
+            <div class="see-more">
+                <a href="https://github.com/pedroasso?tab=repositories" target="_blank">See more...</a>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h1 class="contactTitle">Send me a message</h1>
+            <label>Tell me your name</label>
+            <input type="text" placeholder="Full Name" class="contactInput">
+            <label>What's your phone #</label>
+            <input type="tel" placeholder="+1 xxx-xxx-xxxx" maxlength="15" class="contactInput">
+            <div class="contactMessage">
+                <label> Leave your Message </label><br>
+                <textarea id="send" name="send" rows="6" cols="60"></textarea> <br>
+                <button type="submit" value="Send">Send</button>
+            </div>
+            <span class="close">X</span>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>

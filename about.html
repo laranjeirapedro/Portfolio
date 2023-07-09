@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="background">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-p"></i>
+            </div>
+
+            <div class="header-link">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+
+                <li>
+                    <a href="">Certification</a>
+                </li>
+
+                <li class="resume">
+                    <a href="/resume/Resume - Pedro Laranjeira.pdf" download>Resume</a>
+                </li>
+            </div>
+
+            <div class="contact-me">
+                <button>Contact me</button>
+            </div>
+        </header>
+
+        <div class="container-text">
+            <div class="text">
+                <label class="about">
+                    <p>
+                        Hello there! My name is <strong>Pedro</strong>, and I am a seasoned logistics and international trade professional with over 10 years of experience in Brazil. Recently, I embarked on an exciting journey and relocated to Canada with the goal of transitioning my career into the world of web and software development. I am currently pursuing programming studies to acquire the necessary skills and knowledge for this new path.
+
+                        Throughout my extensive tenure in the logistics and international trade sector, I have developed a strong foundation in managing complex supply chains, optimizing transportation routes, and ensuring efficient import/export processes. My experience has allowed me to develop a keen eye for detail, problem-solving abilities, and the capacity to work under pressure to meet tight deadlines.
+
+                        As I embarked on my programming journey, I quickly realized the tremendous potential that web and software development hold. The ever-evolving nature of technology and its impact on various industries have captivated my interest, inspiring me to pursue a career where I can contribute to creating innovative solutions and enhancing user experiences.
+
+                        Currently, I am working as an Assistant Team Leader at Dollarama, where I have the opportunity to further develop my leadership skills, collaborate with a diverse team, and engage in customer-centric operations. This role has provided me with valuable insights into efficient team management and effective communication.
+
+                        My ultimate goal is to merge my expertise in logistics and international trade with my newfound passion for web and software development. I am eager to leverage my strong analytical skills, attention to detail, and ability to adapt to new technologies to excel in this field. I am actively seeking my first professional opportunity in the web/software development industry, where I can contribute my unique blend of experience, knowledge, and passion.
+
+                        Thank you for taking the time to learn about my professional journey. I am excited about the possibilities that lie ahead and the opportunity to contribute to the dynamic world of web and software development. Let's connect and explore how we can collaborate to create meaningful and impactful solutions together.
+                    </p>
+                </label>
+            </div>
+        </div>
+
+        <div class="contact">
+            <form action="https://formspree.io/f/mleyenqg" name="frmContact" method="post" enctype="multipart/form-data">
+                <h1 class="contactTitle">Send me a message</h1>
+                <label>Tell me your name</label>
+                <input type="text" name="name" placeholder="Your Name" class="contactInput" required> <br>
+                <label>What's your phone #</label>
+                <input type="tel" name="phone" maxlength="15" placeholder="+1 111-111-1111" class="contactInput"> <br>
+                <label>What's your email</label>
+                <input type="email" name="email" placeholder="email@email.com" class="contactInput" required>
+                <div class="contactMessage">
+                    <label> Leave your Message </label><br>
+                    <textarea id="message" name="message" rows="6" cols="60"></textarea> <br>
+                    <button type="submit" name="send" value="Send">Send</button>
+                </div>
+                <span class="close">X</span>
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
