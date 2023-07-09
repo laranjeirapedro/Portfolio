@@ -37,7 +37,7 @@ header {
     font-weight: 300;
     cursor: pointer;
     margin-top: -20px;
-    margin-left: 455px;
+    margin-left: 420px;
 }
 
 .header-link a {
@@ -51,8 +51,15 @@ header {
     transition: 0.3s all;
 }
 
-.resume a {
+.docs a {
     color: #2ecc71;    
+}
+
+.docs a:hover {
+    color: #fff;
+    background-color: #2ecc71;
+    transition: 0.5s;
+    border-radius: 15px;   
 }
 
 .contact-me {
