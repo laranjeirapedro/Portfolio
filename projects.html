@@ -70,18 +70,23 @@
         </div>
 
         <div class="contact">
-            <h1 class="contactTitle">Send me a message</h1>
-            <label>Tell me your name</label>
-            <input type="text" placeholder="Full Name" class="contactInput">
-            <label>What's your phone #</label>
-            <input type="tel" placeholder="+1 xxx-xxx-xxxx" maxlength="15" class="contactInput">
-            <div class="contactMessage">
-                <label> Leave your Message </label><br>
-                <textarea id="send" name="send" rows="6" cols="60"></textarea> <br>
-                <button type="submit" value="Send">Send</button>
-            </div>
-            <span class="close">X</span>
+            <form action="https://formspree.io/f/mleyenqg" name="frmContact" method="post" enctype="multipart/form-data">
+                <h1 class="contactTitle">Send me a message</h1>
+                <label>Tell me your name</label>
+                <input type="text" name="name" placeholder="Your Name" class="contactInput" required> <br>
+                <label>What's your phone #</label>
+                <input type="tel" name="phone" maxlength="15" placeholder="+1 111-111-1111" class="contactInput"> <br>
+                <label>What's your email</label>
+                <input type="email" name="email" placeholder="email@email.com" class="contactInput" required>
+                <div class="contactMessage">
+                    <label> Leave your Message </label><br>
+                    <textarea id="message" name="message" rows="6" cols="60"></textarea> <br>
+                    <button type="submit" name="send" value="Send">Send</button>
+                </div>
+                <span class="close">X</span>
+            </form>
         </div>
+    </div>
 
     </div>
 
