@@ -16,6 +16,7 @@ The website is built using the following technologies:
 - CSS3
 - JavaScript
 - Bootstrap
+- Formspree
 
 ## Installation
 
@@ -70,3 +71,9 @@ The content of this repository is licensed under the [MIT license](LICENSE.md).
 ## Contact
 
 If you have any questions or suggestions regarding this project, please feel free to fill the form at the website
+
+## Next Version
+
+In version 2.0 will be implemented:
+- Responsive website
+- The React language will be used
